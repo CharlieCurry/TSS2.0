@@ -1,0 +1,1 @@
+sourceCodeOut(32000).txt 	32000行原始数据用于训练
