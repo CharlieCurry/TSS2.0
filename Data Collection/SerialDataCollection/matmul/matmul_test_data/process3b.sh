@@ -1,0 +1,1 @@
+time ./sourceCodeb.out $1 $2 $3

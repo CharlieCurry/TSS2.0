@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9046c9d3-dea5-470c-b485-d735b15e34e2" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/$2_val_contrastdataframe_for_32.coverage" NAME="2.val_contrastdataframe for 32 Coverage Results" MODIFIED="1577616202341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+    <SUITE FILE_PATH="coverage/$3_result_handling_valiation_Pluto32__6_dsyrk.coverage" NAME="3.result_handling_valiation(Pluto32)_6_dsyrk Coverage Results" MODIFIED="1577616897042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+    <SUITE FILE_PATH="coverage/$0_.coverage" NAME="0.准备训练集和验证集 Coverage Results" MODIFIED="1577601672394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(UnParallel)TSS-T6-Search" />
+    <SUITE FILE_PATH="coverage/$3_result_handling_valiation_O2__6_gemm.coverage" NAME="3.result_handling_valiation(O2)_6_gemm Coverage Results" MODIFIED="1577616472953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+    <SUITE FILE_PATH="coverage/$3_result_handling_valiation_O2__6.coverage" NAME="3.result_handling_valiation(O2)_6 Coverage Results" MODIFIED="1577609616382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(Parallel)TSS-T1" />
+    <SUITE FILE_PATH="coverage/$3_result_handling_valiation_Pluto32__6_matmul.coverage" NAME="3.result_handling_valiation(Pluto32)_6_matmul Coverage Results" MODIFIED="1577616509530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+    <SUITE FILE_PATH="coverage/$3_result_handling_valiation_Pluto32__6_tmm.coverage" NAME="3.result_handling_valiation(Pluto32)_6_tmm Coverage Results" MODIFIED="1577616943746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+    <SUITE FILE_PATH="coverage/$3_result_handling_valiation_Pluto32__6_trmm.coverage" NAME="3.result_handling_valiation(Pluto32)_6_trmm Coverage Results" MODIFIED="1577616978657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+    <SUITE FILE_PATH="coverage/$3_result_handling_valiation_O2__6_tmm.coverage" NAME="3.result_handling_valiation(O2)_6_tmm Coverage Results" MODIFIED="1577616923164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+    <SUITE FILE_PATH="coverage/$3_result_handling_valiation_O2__6_matmul.coverage" NAME="3.result_handling_valiation(O2)_6_matmul Coverage Results" MODIFIED="1577616525784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+    <SUITE FILE_PATH="coverage/$3_result_handling_valiation_O2__6_dsyrk.coverage" NAME="3.result_handling_valiation(O2)_6_dsyrk Coverage Results" MODIFIED="1577616880923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+    <SUITE FILE_PATH="coverage/$3_result_handling_valiation_O2__6_trmm.coverage" NAME="3.result_handling_valiation(O2)_6_trmm Coverage Results" MODIFIED="1577616964307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+    <SUITE FILE_PATH="coverage/$1_regression.coverage" NAME="1.regression Coverage Results" MODIFIED="1577614984884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+    <SUITE FILE_PATH="coverage/$2_val_contrastdataframe.coverage" NAME="2.val_contrastdataframe Coverage Results" MODIFIED="1577616209018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+    <SUITE FILE_PATH="coverage/$3_result_handling_valiation_Pluto32__6_dsyr2k.coverage" NAME="3.result_handling_valiation(Pluto32)_6_dsyr2k Coverage Results" MODIFIED="1577616853377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+    <SUITE FILE_PATH="coverage/$0___1_.coverage" NAME="0.准备训练集和验证集 (1) Coverage Results" MODIFIED="1577606787805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+    <SUITE FILE_PATH="coverage/$3_result_handling_valiation_Pluto32__6_gemm.coverage" NAME="3.result_handling_valiation(Pluto32)_6_gemm Coverage Results" MODIFIED="1577616486756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+    <SUITE FILE_PATH="coverage/$3_result_handling_valiation_O2__6_dsyr2k.coverage" NAME="3.result_handling_valiation(O2)_6_dsyr2k Coverage Results" MODIFIED="1577616822764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="3.result_handling_valiation(O2)_6_matmul.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_matmul.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="77" selection-start-line="77" selection-end-line="94" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.result_handling_valiation(O2)_6_tmm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_tmm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.result_handling_valiation(Pluto32)_6_tmm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_tmm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.result_handling_valiation(O2)_6_trmm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_trmm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.result_handling_valiation(Pluto32)_6_trmm.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_trmm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-139">
+              <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.result_handling_valiation(O2)_6_dsyr2k.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_dsyr2k.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.result_handling_valiation(Pluto32)_6_dsyr2k.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_dsyr2k.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="82" column="1" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.result_handling_valiation(O2)_6_dsyrk.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_dsyrk.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.result_handling_valiation(Pluto32)_6_dsyrk.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_dsyrk.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/实验(X)加特征-1(1216)(取6个中最好的一个)/0.准备训练集和验证集.py" />
+        <option value="$PROJECT_DIR$/实验(X)加特征-1(1216)(取6个中最好的一个)/0.准备测试集.py" />
+        <option value="$PROJECT_DIR$/实验(X)加特征-1(1216)(取6个中最好的一个)/0.准备测试集32.py" />
+        <option value="$PROJECT_DIR$/实验(X)加特征-1(1216)(取6个中最好的一个)/1.regression.py" />
+        <option value="$PROJECT_DIR$/实验(X)加特征-1(1216)(取6个中最好的一个)/2.val_contrastdataframe.py" />
+        <option value="$PROJECT_DIR$/实验(X)加特征-1(1216)(取6个中最好的一个)/2.val_contrastdataframe for 32.py" />
+        <option value="$PROJECT_DIR$/(UnParallel)TSS-T6-Search/2.val_contrastdataframe.py" />
+        <option value="$PROJECT_DIR$/(UnParallel)TSS-T6-Search/2.val_contrastdataframe for 32.py" />
+        <option value="$PROJECT_DIR$/(UnParallel)TSS-T6-Search/1.regression.py" />
+        <option value="$PROJECT_DIR$/(UnParallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_dsyr2k.py" />
+        <option value="$PROJECT_DIR$/(UnParallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_dsyr2k.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/0.准备训练集和验证集.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictionmatmul_32.csv" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_matmul.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_matmul.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictionmatmul.csv" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_dsyrk.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_dsyrk.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_gemm.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_gemm.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_tmm.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_tmm.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_trmm.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_trmm.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(O2)_6_dsyr2k.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(Pluto32)_6_dsyr2k.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(O2)_6_dsyrk.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(Pluto32)_6_dsyrk.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(O2)_6_gemm.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(Pluto32)_6_gemm.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(O2)_6_matmul.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(Pluto32)_6_matmul.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(O2)_6_tmm.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(Pluto32)_6_tmm.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(O2)_6_trmm.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(Pluto32)_6_trmm.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiongemm.csv" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiongemm_32.csv" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiondsyrk.csv" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiondsyrk_32.csv" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiondsyr2k.csv" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiondsyr2k_32.csv" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiontmm.csv" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiontmm_32.csv" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/1.regression.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/2.val_contrastdataframe.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/2.val_contrastdataframe for 32.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiontrmm_32.csv" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiontrmm.csv" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_dsyr2k.py" />
+        <option value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_dsyr2k.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="125" />
+    <option name="y" value="187" />
+    <option name="width" value="1459" />
+    <option name="height" value="879" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="模型搭建" type="b2602c69:ProjectViewProjectNode" />
+              <item name="模型搭建" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/坚果云同步/我的坚果云/实验(X)forParallel-6(1217)(取6个中最好的)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.3.result_handling_valiation(Pluto32)_6_trmm">
+    <configuration name="3.result_handling_valiation(O2)_6_tmm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="模型搭建" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_tmm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="3.result_handling_valiation(O2)_6_trmm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="模型搭建" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_trmm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="3.result_handling_valiation(Pluto32)_6_dsyrk" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="模型搭建" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_dsyrk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="3.result_handling_valiation(Pluto32)_6_tmm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="模型搭建" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_tmm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="3.result_handling_valiation(Pluto32)_6_trmm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="模型搭建" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/(Parallel)TSS-T6-Search" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_trmm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.3.result_handling_valiation(Pluto32)_6_dsyrk" />
+      <item itemvalue="Python.3.result_handling_valiation(O2)_6_tmm" />
+      <item itemvalue="Python.3.result_handling_valiation(Pluto32)_6_tmm" />
+      <item itemvalue="Python.3.result_handling_valiation(O2)_6_trmm" />
+      <item itemvalue="Python.3.result_handling_valiation(Pluto32)_6_trmm" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.3.result_handling_valiation(Pluto32)_6_trmm" />
+        <item itemvalue="Python.3.result_handling_valiation(O2)_6_trmm" />
+        <item itemvalue="Python.3.result_handling_valiation(Pluto32)_6_tmm" />
+        <item itemvalue="Python.3.result_handling_valiation(O2)_6_tmm" />
+        <item itemvalue="Python.3.result_handling_valiation(Pluto32)_6_dsyrk" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9046c9d3-dea5-470c-b485-d735b15e34e2" name="Default" comment="" />
+      <created>1577596277359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577596277359</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3351724" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24348958" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/0.准备训练集和验证集.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-925">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/valiation_predictionmatmul.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/valiation_prediction_32matmul.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictionmatmul_32.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/坚果云同步/我的坚果云/实验(X)forParallel-6(1217)(取6个中最好的)/3.result_handling_valiation(O2)_6_tmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="59" selection-start-line="59" selection-end-line="76" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictionmatmul.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(O2)_6_dsyr2k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="88" column="21" lean-forward="true" selection-start-line="71" selection-end-line="88" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(Pluto32)_6_dsyr2k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(O2)_6_dsyrk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="71" selection-start-line="71" selection-end-line="88" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(Pluto32)_6_dsyrk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(O2)_6_gemm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="88" column="21" lean-forward="true" selection-start-line="71" selection-end-line="88" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(Pluto32)_6_gemm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(O2)_6_matmul.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="71" selection-start-line="71" selection-end-line="88" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(Pluto32)_6_matmul.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(O2)_6_tmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="88" column="21" selection-start-line="71" selection-end-line="88" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(Pluto32)_6_tmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(O2)_6_trmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="71" selection-start-line="71" selection-end-line="88" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Random/3.result_handling_valiation(Pluto32)_6_trmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T1/3.result_handling_valiation(O2)_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiongemm.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiongemm_32.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1870505311/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="4171" column="8" selection-start-line="4171" selection-start-column="8" selection-end-line="4171" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiondsyrk_32.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiondsyrk.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/valiation_prediction_32dsyrk.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiondsyr2k_32.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiondsyr2k.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/baseline/baselineO2_dsyrk.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4920" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/baseline/baselineO2_dsyr2k.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiontmm_32.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiontmm.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/1.regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/坚果云同步/我的坚果云/实验(X)forParallel-6(1217)(取6个中最好的)/3.result_handling_valiation(O2)_6_dsyr2k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiontrmm.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/test_predictiontrmm_32.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/坚果云同步/我的坚果云/实验(X)forParallel-6(1217)(取6个中最好的)/3.result_handling_valiation(Pluto32)_6_dsyr2k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="65" column="6" selection-end-line="102" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/2.val_contrastdataframe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/2.val_contrastdataframe for 32.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_gemm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="88" column="21" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_gemm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="83" column="4" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_matmul.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_matmul.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="77" selection-start-line="77" selection-end-line="94" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_dsyr2k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_dsyr2k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="82" column="1" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_dsyrk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_dsyrk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_tmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_tmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(O2)_6_trmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/prediction/valiation_prediction_32dsyr2k.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/(Parallel)TSS-T6-Search/3.result_handling_valiation(Pluto32)_6_trmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-139">
+          <caret line="75" column="21" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

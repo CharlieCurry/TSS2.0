@@ -1,0 +1,135 @@
+#include <omp.h>
+#include <math.h>
+#define ceild(n,d)  ceil(((double)(n))/((double)(d)))
+#define floord(n,d) floor(((double)(n))/((double)(d)))
+#define max(x,y)    ((x) > (y)? (x) : (y))
+#define min(x,y)    ((x) < (y)? (x) : (y))
+
+#include <stdio.h>
+#include "math.h"
+#include <stdlib.h>
+#include "time.h"
+#define Smax 1
+#define Smin 0
+#define alpha 0.6
+double **Init_Matrix_rand_PSxM(double **matrix,int PS,int M){
+    matrix=(double**)malloc(sizeof(double*)*PS);
+    for(int i=0;i<PS;++i){
+        matrix[i]=(double*)malloc(sizeof(double)*M);
+    }
+    for(int i=0;i<PS;++i){
+        for(int j=0;j<M;++j){
+            //32767 (2^16-1)
+             matrix[i][j]=(double)rand()/32767*(Smax-Smin)+Smin;;
+        }
+    }
+    return matrix;
+}
+
+
+
+double **Init_Matrix_zero_PSxM(double **matrix,int PS,int M){
+    matrix=(double**)malloc(sizeof(double*)*PS);
+    for(int i=0;i<PS;++i){
+        matrix[i]=(double*)malloc(sizeof(double)*M);
+    }
+    for(int i=0;i<PS;++i){
+        for(int j=0;j<M;++j){
+            //32767 (2^16-1)
+            matrix[i][j]=0;
+        }
+    }
+    return matrix;
+}
+
+void free_Matrix(double **matrix,int PS){
+     for(int i=0;i<PS;++i){
+        free(matrix[i]);
+    }
+    free(matrix);
+}
+int main(int argc,char *argv[]){
+    double **A,**B;
+    FILE *fp = NULL;
+ double Total_time = 0.0;
+    srand((unsigned)time(NULL));
+//PS1==PS2
+// A is MxM = PS1*PS2
+// B is MxN = PS2*PS3
+    int PS1 =atoi(argv[1]);
+    int PS2 =atoi(argv[2]);
+    int PS3 =atoi(argv[3]);
+    //C = Init_Matrix_zero_PSxM(C,PS1,PS3);
+    A = Init_Matrix_rand_PSxM(A,PS1,PS2);
+    B = Init_Matrix_rand_PSxM(B,PS2,PS3);
+omp_set_num_threads(8); 
+double ompt1= omp_get_wtime();
+/* Copyright (C) 1991-2018 Free Software Foundation, Inc.
+   This file is part of the GNU C Library.
+
+   The GNU C Library is free software; you can redistribute it and/or
+   modify it under the terms of the GNU Lesser General Public
+   License as published by the Free Software Foundation; either
+   version 2.1 of the License, or (at your option) any later version.
+
+   The GNU C Library is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+   Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public
+   License along with the GNU C Library; if not, see
+   <http://www.gnu.org/licenses/>.  */
+/* This header is separate from features.h so that the compiler can
+   include it implicitly at the start of every compilation.  It must
+   not itself include <features.h> or any other header that includes
+   <features.h> because the implicit include comes before any feature
+   test macros that may be defined in a source file before it first
+   explicitly includes a system header.  GCC knows the name of this
+   header in order to preinclude it.  */
+/* glibc's intent is to support the IEC 559 math functionality, real
+   and complex.  If the GCC (4.9 and later) predefined macros
+   specifying compiler intent are available, use them to determine
+   whether the overall intent is to support these features; otherwise,
+   presume an older compiler has intent to support these features and
+   define these macros by default.  */
+/* wchar_t uses Unicode 10.0.0.  Version 10.0 of the Unicode Standard is
+   synchronized with ISO/IEC 10646:2017, fifth edition, plus
+   the following additions from Amendment 1 to the fifth edition:
+   - 56 emoji characters
+   - 285 hentaigana
+   - 3 additional Zanabazar Square characters */
+/* We do not support C11 <threads.h>.  */
+  int t1, t2, t3, t4;
+ int lb, ub, lbp, ubp, lb2, ub2;
+ register int lbv, ubv;
+/* Start of CLooG code */
+if ((PS1 >= 1) && (PS2 >= 2) && (PS3 >= 1)) {
+  for (t1=1;t1<=min(2*PS2-3,PS1+PS2-2);t1++) {
+    lbp=max(ceild(t1+1,2),t1-PS1+1);
+    ubp=min(t1,PS2-1);
+#pragma omp parallel for private(lbv,ubv,t3,t4)
+    for (t2=lbp;t2<=ubp;t2++) {
+      lbv=0;
+      ubv=PS3-1;
+#pragma ivdep
+#pragma vector always
+      for (t3=lbv;t3<=ubv;t3++) {
+        B[(t1-t2)][t3] += A[t2][(t1-t2)] * B[t2][t3];;
+        B[(t1-t2)][t3]=alpha*B[(t1-t2)][t3];;
+      }
+    }
+  }
+}
+/* End of CLooG code */
+double ompt2 = omp_get_wtime();
+double time2  = ompt2 - ompt1;
+    printf("%d %d %d %.10f\n",PS1,PS2,PS3,time2);
+    fp = fopen("sourceCodeOutb.txt", "a+");
+    fprintf(fp," %d %d %d %.10f",PS1,PS2,PS3,time2);
+    fclose(fp);
+    free_Matrix(A,PS1);
+    free_Matrix(B,PS2);
+return 0;
+}
+

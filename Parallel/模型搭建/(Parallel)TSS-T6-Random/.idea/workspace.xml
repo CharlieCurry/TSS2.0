@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eba744b5-5c62-45ca-b6dd-84593c16ed1b" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/_X_$baseline.coverage" NAME="baseline Coverage Results" MODIFIED="1574170885531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216__6_$3_result_handling_valiation_Pluto32__6_trmm.coverage" NAME="3.result_handling_valiation(Pluto32)_6_trmm Coverage Results" MODIFIED="1576635829464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_matmulXtmm_$preprocessing_for_valiation.coverage" NAME="preprocessing for valiation Coverage Results" MODIFIED="1573370661937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216__6_$3_result_handling_valiation_O2__6_tmm.coverage" NAME="3.result_handling_valiation(O2)_6_tmm Coverage Results" MODIFIED="1576638382486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216_$3_result_handling_valiation_O2__6_dsyr2k.coverage" NAME="3.result_handling_valiation(O2)_6_dsyr2k Coverage Results" MODIFIED="1576497243774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X_$4_.coverage" NAME="4.相对误差 Coverage Results" MODIFIED="1575030355655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_matmulXtmm_$0_.coverage" NAME="0.准备训练集和测试集 Coverage Results" MODIFIED="1574141235602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216_$3_result_handling_valiation_Pluto32__6_gemm.coverage" NAME="3.result_handling_valiation(Pluto32)_6_gemm Coverage Results" MODIFIED="1576497035295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216_$3_result_handling_valiation_Pluto32__6_dsyrk.coverage" NAME="3.result_handling_valiation(Pluto32)_6_dsyrk Coverage Results" MODIFIED="1576496936235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216__6_$3_result_handling_valiation_O2__6_matmul.coverage" NAME="3.result_handling_valiation(O2)_6_matmul Coverage Results" MODIFIED="1576636952768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216_$3_result_handling_valiation_O2__6_gemm.coverage" NAME="3.result_handling_valiation(O2)_6_gemm Coverage Results" MODIFIED="1576497225994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216_$3_result_handling_valiation_O2__6_tmm.coverage" NAME="3.result_handling_valiation(O2)_6_tmm Coverage Results" MODIFIED="1576497216624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X_$0_32.coverage" NAME="0.准备验证集32 Coverage Results" MODIFIED="1574216785510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X_$3_result_handling_valiation_Pluto32__6.coverage" NAME="3.result_handling_valiation(Pluto32)_6 Coverage Results" MODIFIED="1575894414139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X_$2_val_contrastdataframe.coverage" NAME="2.val_contrastdataframe Coverage Results" MODIFIED="1574946239367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216_$3_result_handling_valiation_Pluto32__6_matmul.coverage" NAME="3.result_handling_valiation(Pluto32)_6_matmul Coverage Results" MODIFIED="1576545689551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X_$1_regression.coverage" NAME="1.regression Coverage Results" MODIFIED="1574945630973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216__6_$3_result_handling_valiation_Pluto32__6_matmul.coverage" NAME="3.result_handling_valiation(Pluto32)_6_matmul Coverage Results" MODIFIED="1576635687511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216__6_$3_result_handling_valiation_Pluto32__6_dsyrk.coverage" NAME="3.result_handling_valiation(Pluto32)_6_dsyrk Coverage Results" MODIFIED="1576635894535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_matmulXtmm_$preprocessing.coverage" NAME="preprocessing Coverage Results" MODIFIED="1573369505253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_matmulXtmm_$2_val_contrastdataframe.coverage" NAME="2.val_contrastdataframe Coverage Results" MODIFIED="1573522090789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216__6_$3_result_handling_valiation_O2__6_trmm.coverage" NAME="3.result_handling_valiation(O2)_6_trmm Coverage Results" MODIFIED="1576636764931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216_$3_result_handling_valiation_Pluto32__6_tmm.coverage" NAME="3.result_handling_valiation(Pluto32)_6_tmm Coverage Results" MODIFIED="1576496969580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216_$3_result_handling_valiation_O2__6_trmm.coverage" NAME="3.result_handling_valiation(O2)_6_trmm Coverage Results" MODIFIED="1576633972573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_matmulXtmm_$result_handling_1.coverage" NAME="result_handling_1 Coverage Results" MODIFIED="1573469271707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X_$0_.coverage" NAME="0.准备验证集 Coverage Results" MODIFIED="1574167026613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216__6_$3_result_handling_valiation_O2__6_gemm.coverage" NAME="3.result_handling_valiation(O2)_6_gemm Coverage Results" MODIFIED="1576636863432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_matmulXtmm_$3_result_handling_valiation.coverage" NAME="3.result_handling_valiation Coverage Results" MODIFIED="1573550197902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216_$3_result_handling_valiation_O2__6_dsyrk.coverage" NAME="3.result_handling_valiation(O2)_6_dsyrk Coverage Results" MODIFIED="1576497234970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216_$3_result_handling_valiation_O2__6_matmul.coverage" NAME="3.result_handling_valiation(O2)_6_matmul Coverage Results" MODIFIED="1576545668292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216__6_$3_result_handling_valiation_Pluto32__6_tmm.coverage" NAME="3.result_handling_valiation(Pluto32)_6_tmm Coverage Results" MODIFIED="1576635800161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X_$timeconsuming.coverage" NAME="timeconsuming Coverage Results" MODIFIED="1574923189372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216__6_$3_result_handling_valiation_O2__6_dsyr2k.coverage" NAME="3.result_handling_valiation(O2)_6_dsyr2k Coverage Results" MODIFIED="1576636660209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X_$3_result_handling_valiation_O2__6.coverage" NAME="3.result_handling_valiation(O2)_6 Coverage Results" MODIFIED="1576144355757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216__6_$3_result_handling_valiation_Pluto32__6_dsyr2k.coverage" NAME="3.result_handling_valiation(Pluto32)_6_dsyr2k Coverage Results" MODIFIED="1576635865480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216__6_$3_result_handling_valiation_Pluto32__6_gemm.coverage" NAME="3.result_handling_valiation(Pluto32)_6_gemm Coverage Results" MODIFIED="1576635744381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216_$3_result_handling_valiation_Pluto32__6_dsyr2k.coverage" NAME="3.result_handling_valiation(Pluto32)_6_dsyr2k Coverage Results" MODIFIED="1576496838188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_matmulXtmm_$1_regression.coverage" NAME="1.regression Coverage Results" MODIFIED="1574141244833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216__6_$3_result_handling_valiation_O2__6_dsyrk.coverage" NAME="3.result_handling_valiation(O2)_6_dsyrk Coverage Results" MODIFIED="1576636760139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_X__1_1216_$3_result_handling_valiation_Pluto32__6_trmm.coverage" NAME="3.result_handling_valiation(Pluto32)_6_trmm Coverage Results" MODIFIED="1576497207061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="3.result_handling_valiation(O2)_6_dsyr2k.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(O2)_6_dsyr2k.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="14" lean-forward="true" selection-end-line="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.result_handling_valiation(O2)_6_gemm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(O2)_6_gemm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="82" column="20" lean-forward="true" selection-end-line="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.result_handling_valiation(O2)_6_matmul.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(O2)_6_matmul.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="796">
+              <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.result_handling_valiation(O2)_6_dsyrk.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(O2)_6_dsyrk.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="85" column="20" lean-forward="true" selection-end-line="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.result_handling_valiation(O2)_6_trmm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(O2)_6_trmm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="82" column="19" lean-forward="true" selection-end-line="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.result_handling_valiation(O2)_6_tmm.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(O2)_6_tmm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/preprocessing for valiation.py" />
+        <option value="$PROJECT_DIR$/preprocessing.py" />
+        <option value="$PROJECT_DIR$/result_handling_1.py" />
+        <option value="$PROJECT_DIR$/0.准备训练集和测试集.py" />
+        <option value="$PROJECT_DIR$/3.result_handling_valiation.py" />
+        <option value="$PROJECT_DIR$/0.准备验证集.py" />
+        <option value="$PROJECT_DIR$/baseline.py" />
+        <option value="$PROJECT_DIR$/0.准备验证集32.py" />
+        <option value="$PROJECT_DIR$/prediction/valiation_prediction_data_32.csv" />
+        <option value="$PROJECT_DIR$/prediction/valiation_prediction_data.csv" />
+        <option value="$PROJECT_DIR$/使用已经训练好的模型.py" />
+        <option value="$PROJECT_DIR$/prediction/valiation_predictiontmm.csv" />
+        <option value="$PROJECT_DIR$/prediction/valiation_predictiontrmm.csv" />
+        <option value="$PROJECT_DIR$/prediction/valiation_predictiongemm.csv" />
+        <option value="$PROJECT_DIR$/prediction/valiation_predictiondsyrk.csv" />
+        <option value="$PROJECT_DIR$/prediction/valiation_predictiondsyr2k.csv" />
+        <option value="$PROJECT_DIR$/timeconsuming.py" />
+        <option value="$PROJECT_DIR$/prediction/valiation_prediction_32gemm.csv" />
+        <option value="$PROJECT_DIR$/prediction/valiation_prediction_32matmul.csv" />
+        <option value="$PROJECT_DIR$/prediction/valiation_prediction_32trmm.csv" />
+        <option value="$PROJECT_DIR$/prediction/valiation_prediction_32tmm.csv" />
+        <option value="$PROJECT_DIR$/prediction/valiation_prediction_32dsyrk.csv" />
+        <option value="$PROJECT_DIR$/prediction/valiation_prediction_32dsyr2k.csv" />
+        <option value="$PROJECT_DIR$/2.val_contrastdataframe.py" />
+        <option value="$PROJECT_DIR$/1.regression.py" />
+        <option value="$PROJECT_DIR$/prediction/valiation_predictionmatmul.csv" />
+        <option value="$PROJECT_DIR$/4.相对误差.py" />
+        <option value="$PROJECT_DIR$/3.result_handling_valiation(O2)_6.py" />
+        <option value="$PROJECT_DIR$/3.result_handling_valiation(Pluto32)_6.py" />
+        <option value="$PROJECT_DIR$/3.result_handling_valiation(Pluto32)_6_matmul.py" />
+        <option value="$PROJECT_DIR$/3.result_handling_valiation(Pluto32)_6_gemm.py" />
+        <option value="$PROJECT_DIR$/3.result_handling_valiation(Pluto32)_6_tmm.py" />
+        <option value="$PROJECT_DIR$/3.result_handling_valiation(Pluto32)_6_trmm.py" />
+        <option value="$PROJECT_DIR$/3.result_handling_valiation(Pluto32)_6_dsyr2k.py" />
+        <option value="$PROJECT_DIR$/3.result_handling_valiation(Pluto32)_6_dsyrk.py" />
+        <option value="$PROJECT_DIR$/3.result_handling_valiation(O2)_6_dsyr2k.py" />
+        <option value="$PROJECT_DIR$/3.result_handling_valiation(O2)_6_dsyrk.py" />
+        <option value="$PROJECT_DIR$/3.result_handling_valiation(O2)_6_trmm.py" />
+        <option value="$PROJECT_DIR$/3.result_handling_valiation(O2)_6_gemm.py" />
+        <option value="$PROJECT_DIR$/3.result_handling_valiation(O2)_6_matmul.py" />
+        <option value="$PROJECT_DIR$/3.result_handling_valiation(O2)_6_tmm.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="350" />
+    <option name="y" value="92" />
+    <option name="width" value="1103" />
+    <option name="height" value="710" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="实验(X)加特征-1(1216)(取6个的平均)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="实验(X)加特征-1(1216)(取6个的平均)" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../实验(X)forParallel-6(取6个的平均)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.3.result_handling_valiation(O2)_6_tmm">
+    <configuration name="3.result_handling_valiation(O2)_6_dsyrk" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="实验(matmulXtmm)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.result_handling_valiation(O2)_6_dsyrk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="3.result_handling_valiation(O2)_6_gemm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="实验(matmulXtmm)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.result_handling_valiation(O2)_6_gemm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="3.result_handling_valiation(O2)_6_matmul" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="实验(matmulXtmm)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.result_handling_valiation(O2)_6_matmul.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="3.result_handling_valiation(O2)_6_tmm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="实验(matmulXtmm)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.result_handling_valiation(O2)_6_tmm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="3.result_handling_valiation(O2)_6_trmm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="实验(matmulXtmm)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.result_handling_valiation(O2)_6_trmm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.3.result_handling_valiation(O2)_6_gemm" />
+      <item itemvalue="Python.3.result_handling_valiation(O2)_6_tmm" />
+      <item itemvalue="Python.3.result_handling_valiation(O2)_6_trmm" />
+      <item itemvalue="Python.3.result_handling_valiation(O2)_6_dsyrk" />
+      <item itemvalue="Python.3.result_handling_valiation(O2)_6_matmul" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.3.result_handling_valiation(O2)_6_tmm" />
+        <item itemvalue="Python.3.result_handling_valiation(O2)_6_matmul" />
+        <item itemvalue="Python.3.result_handling_valiation(O2)_6_gemm" />
+        <item itemvalue="Python.3.result_handling_valiation(O2)_6_trmm" />
+        <item itemvalue="Python.3.result_handling_valiation(O2)_6_dsyrk" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eba744b5-5c62-45ca-b6dd-84593c16ed1b" name="Default" comment="" />
+      <created>1573366905616</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573366905616</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36136663" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24097222" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32965517" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/preprocessing.py" />
+    <entry file="file://$PROJECT_DIR$/result_handling_1.py" />
+    <entry file="file://$PROJECT_DIR$/preprocessing for valiation.py" />
+    <entry file="file://$PROJECT_DIR$/2.val_contrastdataframe.py" />
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation.py" />
+    <entry file="file://$PROJECT_DIR$/1.regression.py" />
+    <entry file="file://$PROJECT_DIR$/preprocessing.py" />
+    <entry file="file://$PROJECT_DIR$/result_handling_1.py" />
+    <entry file="file://$PROJECT_DIR$/preprocessing for valiation.py" />
+    <entry file="file://$PROJECT_DIR$/2.val_contrastdataframe.py" />
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation.py" />
+    <entry file="file://$PROJECT_DIR$/1.regression.py" />
+    <entry file="file://$PROJECT_DIR$/preprocessing.py" />
+    <entry file="file://$PROJECT_DIR$/preprocessing for valiation.py" />
+    <entry file="file://$PROJECT_DIR$/2.val_contrastdataframe.py" />
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation.py" />
+    <entry file="file://$PROJECT_DIR$/1.regression.py" />
+    <entry file="file://$PROJECT_DIR$/result_handling_1.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/ops/losses/losses_impl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-872">
+          <caret line="403" column="41" lean-forward="true" selection-start-line="402" selection-start-column="4" selection-end-line="403" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing for valiation.py" />
+    <entry file="file://$PROJECT_DIR$/preprocessing.py" />
+    <entry file="file://$PROJECT_DIR$/valiation/valiation_data.txt" />
+    <entry file="file://$PROJECT_DIR$/baseline.py" />
+    <entry file="file://$PROJECT_DIR$/0.准备验证集.py" />
+    <entry file="file://$PROJECT_DIR$/valiation/matmul_val_totalfeatures_32.txt" />
+    <entry file="file://$PROJECT_DIR$/使用已经训练好的模型.py" />
+    <entry file="file://$PROJECT_DIR$/timeconsuming.py" />
+    <entry file="file://$PROJECT_DIR$/prediction/valiation_prediction_data_32.csv" />
+    <entry file="file://$PROJECT_DIR$/0.准备验证集32.py" />
+    <entry file="file://$PROJECT_DIR$/0.准备训练集和测试集.py" />
+    <entry file="file://$PROJECT_DIR$/2.val_contrastdataframe.py" />
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation.py" />
+    <entry file="file://$PROJECT_DIR$/valiation/dsyr2k_val_totalfeatures.txt" />
+    <entry file="file://$PROJECT_DIR$/prediction/P.csv" />
+    <entry file="file://$PROJECT_DIR$/4.相对误差.py" />
+    <entry file="file://$PROJECT_DIR$/1.regression.py" />
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(O2)_6.py" />
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(Pluto32)_6.py" />
+    <entry file="file://$PROJECT_DIR$/baseline/baselineO2_dsyr2k.txt" />
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(Pluto32)_6_matmul.py" />
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(Pluto32)_6_trmm.py" />
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(Pluto32)_6_dsyr2k.py" />
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(Pluto32)_6_tmm.py" />
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(Pluto32)_6_dsyrk.py" />
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(Pluto32)_6_gemm.py" />
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(O2)_6_dsyrk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="85" column="20" lean-forward="true" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(O2)_6_trmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="82" column="19" lean-forward="true" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(O2)_6_dsyr2k.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="14" lean-forward="true" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(O2)_6_gemm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="82" column="20" lean-forward="true" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(O2)_6_matmul.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.result_handling_valiation(O2)_6_tmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
